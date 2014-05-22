@@ -1,0 +1,10 @@
+ <div class="row-fluid">
+   <div class="span4"><h1>Flat profile</h1>
+   <table class="table table-bordered table-condensed">
+     <% for (var c = 0; c < flat.length; c++) { %>
+     <tr><td><%=simple_func_name(flat[c].internalFuncName)%></td></tr>
+     <% } %>
+   </table>
+   </div>
+   <div class="span8"><h1>Call Graph</h1></div>
+ </div>

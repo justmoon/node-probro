@@ -1,0 +1,32 @@
+{
+  "name": "probro",
+  "version": "0.0.1",
+  "description": "Profile browser for v8 profiling information.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/justmoon/node-probro.git\u001bOF"
+  },
+  "dependencies": {
+    "byline": "*",
+    "connect-assets": "*",
+    "ejs": "*",
+    "express": "3.0.0rc1",
+    "fibers": "^1.0.1",
+    "less": "*",
+    "less-middleware": "^1.0.3",
+    "socket.io": "^0.9.16",
+    "winston": "*"
+  },
+  "keywords": [
+    "profiling",
+    "v8",
+    "callgraph"
+  ],
+  "author": "Stefan Thomas <justmoon@members.fsf.org>",
+  "license": "MIT"
+}
